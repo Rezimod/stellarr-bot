@@ -131,7 +131,7 @@ def run_in_background(chat_id, agent_key, task, label):
             f"📡 Session: `{sid}`\n"
             f"⏳ {emoji} {name} working... (up to 8 min)\n\n"
             f"Console: https://console.anthropic.com/sessions/{sid}",
-            parse_mode="Markdown"
+            
         )
 
         send_message(sid, task)
